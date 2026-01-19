@@ -140,6 +140,15 @@ opacity: 0.8;
 
 
 }
+/* tech wave style */
+.tech-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    margin: 0 auto;
+    max-width: 1200px;
+    gap:30px;
+}
 
 
 
