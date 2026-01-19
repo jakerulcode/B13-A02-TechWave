@@ -3,10 +3,15 @@
     margin: 0;
     box-sizing: border-box;
      font-family: "Inter", sans-serif;
+     color:white;
+     
+}
+body{
+     background-color: #1A0B2E;
 }
 /* header style */
 header{
-    background-image: url(./assets/hero-bg.png);
+   
    
 }
 /* navbar style */
@@ -17,6 +22,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding:24px 0;
+   
 }
 .menu{
     display: flex;
@@ -56,4 +62,128 @@ color:#FFFFFF;
 }
 .hamburg{
     display: none;
+}
+/* hero banner style */
+/* .banner{
+    background-image: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative
+  
+
+     
+}
+.circle{
+   position: absolute;
+   left: 50%;
+
+   
+
+    
+} */
+
+/* about section style */
+.about{
+   
+}
+.about-container{
+    max-width: 1200px;
+    margin:0 auto;
+   
+}
+.description{
+    text-align: center;
+   }
+
+.section-heading{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom:16px;
+}
+.description p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 80px;
+    color:#FFFFFF;
+}
+hr{
+    opacity: 0.1;
+}
+
+#about-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top:80px;
+    margin-bottom:120px;
+    justify-content: space-between;
+    text-align: center;
+}
+.about-card{
+    text-align: center;
+}
+
+.about-card h3{
+         color:#00FF88;
+         font-style: Black;
+         font-size: 48px;
+         font-weight: 900;
+         margin-bottom: 16px;
+}
+.about-card p{
+font-size: 16px;
+font-weight: 400;
+text-transform: uppercase;
+opacity: 0.8;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* responsive codes */
+@media screen and (max-width:576px) {
+
+    .btn,.menu{
+        display: none;
+    }
+    .navbar {
+   
+    padding: 24px 20px;
+}
+    .hamburg{
+        display: inline;
+        margin-right: 5px;
+    }
+    #about-box{
+        grid-template-columns: repeat(2, 1fr);
+        gap:40px;
+        margin-top:40px;
+    }
+    .description p{
+    margin-bottom: 40px;
+    
+}
+.section-heading {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.about-container{
+    padding: 40px 20px;
+}
+.about-card h3 {
+    font-size: 35px;
+    
+}
+
 }
